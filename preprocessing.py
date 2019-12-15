@@ -11,7 +11,7 @@ from nltk.tokenize import ToktokTokenizer, word_tokenize
 from pathlib import Path
 
 
-nltk.data.path.append('/Users/kartikprabhu/Desktop/AML/nltk_data')
+nltk.data.path.append('/Users/anshu/Desktop/AML/nltk_data')
 
 docs = []
 lemma = WordNetLemmatizer()
