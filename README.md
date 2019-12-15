@@ -1,6 +1,6 @@
 # Multi-label-Classification
 
-This project is part of Advanced Machine learning course at Otto Von Guericke University, Magdeburg - 2019 ( http://www.dke-research.de/en/Studies/Courses/Summer+Term+2019/Advanced+Topics+in+Machine+Learning.html)
+Dataset : Eurlex dataset (http://www.ke.tu-darmstadt.de/resources/eurlex)
 
 For Executing: python executor.py <RunType> <Source> <Destination> <ClassifierType> <br/> 
 RunType = 1 {For preprocessing}, 2 {For training}<br/>
