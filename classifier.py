@@ -99,19 +99,7 @@ def trainClassifier(destinationPath, classifierType):
     print("Training trainDF.shape:" + str(trainDF.shape))
     print("Training testDF.shape:" + str(testDF.shape))
 
-    # wordcloud after preprocessing
-    # words = []
-    # for t in totalDF['content']:
-    #     words.append(t)
-    # words[:4]
-    # # print(words.shape)
-    # word_text = pd.Series(words).str.cat(sep=' ')
-    # w = WordCloud(width=1000, height=800, mode='RGBA', background_color='white',max_words=2000, collocations=False).generate(word_text)
-    # plt.imshow(w)
-    # plt.show()
-    # plt.savefig('/Users/kartikprabhu/Desktop/wordCloud.png')
-
-
+    
     print("Removing labels with frequency less than 5...")
     y_train = totalDF.iloc[:, 2:]
     constrainLabels = []
