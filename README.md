@@ -1,4 +1,4 @@
-# Multi-label-Classification
+# Multi-label-Classification on Eurlex Dataset
 
 Dataset : Eurlex dataset (http://www.ke.tu-darmstadt.de/resources/eurlex)
 
